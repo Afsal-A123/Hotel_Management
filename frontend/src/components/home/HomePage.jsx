@@ -30,7 +30,7 @@ const HomePage = () => {
                         <h1>
                             Welcome to <span className="phegon-color">Afsal Hotel</span>
                         </h1><br />
-                        <h3>Step into a haven of comfort and care</h3>
+                        <h3>Step into a heaven of comfort and care</h3>
                     </div>
                 </header>
             </section>

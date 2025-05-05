@@ -71,6 +71,7 @@ const AllRoomsPage = () => {
 
   return (
     <div className='all-rooms'>
+      <br/>
       <h2>All Rooms</h2>
       <div className='all-room-filter-div'>
         <label>Filter by Room Type:</label>
@@ -83,6 +84,7 @@ const AllRoomsPage = () => {
           ))}
         </select>
       </div>
+      <br/><br/><br/>
       
       <RoomSearch handleSearchResult={handleSearchResult} />
       <RoomResult roomSearchResults={currentRooms} />
